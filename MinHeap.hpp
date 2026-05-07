@@ -24,6 +24,7 @@ public:
     int size() const { return data.size(); }
     bool empty() const { return data.empty(); }
     const vector<T>& getArray() const { return data; }
+    void print() const;
 };
 
 #include "MinHeap.tpp"
